@@ -1,0 +1,87 @@
+body{
+    margin-left: 20px;
+}
+h3{
+    margin: 2%;
+}
+
+.chat{
+    background-color: rgb(208, 222, 201);
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 10px;
+}
+ .msg{
+    background-color: rgb(168, 207, 109);
+    border-radius: 10px;
+    color: rgb(52, 6, 6);
+    text-shadow:10px ;
+     
+    font-weight: bold;
+ }
+ .chat {
+    transition: 0.3s;
+}
+
+.chat:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+
+.msg:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.35);
+    transform: translateY(-3px);
+}
+
+.btn{
+    margin-left: 20px;;
+}
+
+.date{
+    margin:2px;
+}
+
+.date:hover{
+     font-weight: bold;
+     color: rgb(14, 1, 30);
+    transition: (2s) ;
+}
+
+.editbtn{
+    background: #111;
+    color: #d2e6da;
+    border: 1px solid #00c853;
+    border-radius: 10px;
+    padding: 2px 5px;
+    margin-left: 10%;
+    font-weight: 400;
+    transition: all 0.25s ease;
+}
+
+.editbtn:hover {
+    background: #597a56;
+      font-weight: bold;
+    color: #000;
+    box-shadow: 0 0 12px rgba(0, 200, 83, 0.35);
+    transform: translateY(-1px);
+}
+.bbtn{
+     background: #597a56;
+      font-weight: bold;
+      border: 1px solid #00c853;
+    border-radius: 5px;
+    padding: 2px 4px;
+    margin: 5px 5px 5px 5px;
+    font-weight: 400;
+}
+
+.bbtn:hover{
+     box-shadow: 0 0 12px rgba(5, 2, 7, 0.35);
+     font-weight: bold;
+    color: #fbf9f9;
+}
+.display{
+    display: flex;
+    
+}
